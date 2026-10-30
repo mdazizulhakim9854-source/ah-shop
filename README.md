@@ -1,5 +1,11 @@
 # AH SHOP v2 — নতুন checkout, owner dashboard ও Android app
 
+**দেখার Sample সাইট:** https://mdazizulhakim9854-source.github.io/ah-shop/
+
+**কী চালু, কী বাকি:** https://mdazizulhakim9854-source.github.io/ah-shop/setup.html
+
+> GitHub Pages কেবল Sample project showcase। এখানে backend ও বাস্তব WhatsApp orders বন্ধ রাখা হয়েছে। বাস্তব shop-এর জন্য উপযুক্ত production hosting, Supabase owner setup ও অনুমোদিত business information দরকার।
+
 **বর্তমান নির্দেশিকা:** [ব্যক্তিগত admin, payment ও APK/AAB setup](docs/V2-OWNER-PAYMENT-APP.md)
 
 আপনার reference screenshot অনুযায়ী online/COD payment selection, SSLCOMMERZ connector code, single-owner role limit, customer menu থেকে admin link অপসারণ, featured/pin-to-top, approved discounts, banner/accent customization এবং moderated purchase-linked reviews যোগ হয়েছে। তিনটি Sample review বাস্তব rating average-এ গণনা হয় না।
