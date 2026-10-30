@@ -1,0 +1,17 @@
+project_id = "ah-shop"
+[functions.create-order]
+verify_jwt = false
+[functions.track-order]
+verify_jwt = false
+[functions.ai-support]
+verify_jwt = false
+[functions.upload-image]
+verify_jwt = false
+[functions.payment-config]
+verify_jwt = false
+[functions.payment-init]
+verify_jwt = false
+[functions.payment-notify]
+verify_jwt = false
+[functions.submit-review]
+verify_jwt = false

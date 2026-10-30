@@ -1,0 +1,2 @@
+import {db,handle} from '../_shared/http.ts';
+Deno.serve(req=>handle(req,'track',20,async body=>{const id=String(body.order_id||'');let phone=String(body.phone||'').replace(/\D/g,'').replace(/^88/,'');if(!/^[0-9a-f-]{36}$/i.test(id)||!/^01[3-9]\d{8}$/.test(phone))throw Error('invalid');const {data,error}=await db.rpc('track_order_secure',{p_id:id,p_phone:phone});if(error||!data)throw Error('not found');return {order:data}}));

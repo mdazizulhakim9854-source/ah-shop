@@ -1,0 +1,24 @@
+node_modules/
+dist/
+.env
+.env.local
+playwright-report/
+test-results/
+.gradle/
+android/local.properties
+*.jks
+*.keystore
+*.aab
+*.apk
+
+# Keep owner credentials and generated native artifacts out of GitHub.
+.env.*
+!.env.example
+*.pem
+*.p12
+android/key.properties
+android/.gradle/
+android/**/build/
+.cache/
+.idea/
+*.tsbuildinfo
